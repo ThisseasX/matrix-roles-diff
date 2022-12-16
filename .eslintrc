@@ -1,0 +1,16 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "extends": ["eslint:recommended", "airbnb-base", "prettier"],
+  "rules": {
+    "no-console": 0,
+    "no-shadow": 0,
+    "import/prefer-default-export": 0
+  }
+}
